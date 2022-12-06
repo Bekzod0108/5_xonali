@@ -1,0 +1,23 @@
+void main(){
+    int q=54812;
+    int w=0;
+    int juft=0;
+    int toq=0;
+    w+=q%10;
+    toq+=((q%10)%2)*(q%10);
+    q~/=10;
+    toq+=((q%10)%2)*(q%10);
+    w+=q%10;
+    q~/=10;
+    toq+=((q%10)%2)*(q%10);
+    w+=q%10;
+    q~/=10;
+    toq+=((q%10)%2)*(q%10);
+    w+=q%10;
+    q~/=10;
+    w+=q%10;
+    toq+=((q%10)%2)*(q%10);
+    juft=w-toq;
+    print(juft);
+    print(toq);
+}
